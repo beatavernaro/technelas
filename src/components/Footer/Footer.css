@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --main-red-color: #932D3C;
+    --main-yellow-color: #E89345;
+    --light-color: #FEF8F8;
+    --roboto: 'Roboto', sans-serif;
+    --cinza: #555555; 
+    --rosa: #EE9591;
+    --cinza-claro: #F6F6F6;
+    --cinza-medio: #888888;
+  }
+
+main{
+    font-family: var(--roboto);
+}
+
+.main-bg-color{
+    background-color: var(--light-color)
+}
+
+.card-style{
+    background-color: var(--light-color) !important;
+    border-color: var(--main-red-color) !important;
+   /* box-shadow: 10px 10px 30px rgba(255, 0, 43, 0.096) !important; */
+    color: var(--cinza) !important;
+    height: 350px;
+}
+
+.cards-container-bg{
+    background-color: var(--main-red-color) !important;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.card-text-size{
+    font-size: 3.5rem;
+}
+
+.center-align{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-style-card{
+    text-transform: uppercase;
+}
+
+
+/* FOOTER BEGIN */
+
+.bordere-footer{
+    box-shadow: 10px 0px 34px -9px rgba(204,43,94,1);
+}
+
+.footer-style{
+    font-family: var(--roboto);
+    color: var(--cinza)!important;
+}
+
+/* FOOTER END */

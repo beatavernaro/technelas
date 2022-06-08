@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --main-red-color: #932D3C;
+    --main-yellow-color: #E89345;
+    --light-color: #FEF8F8;
+    --roboto: 'Roboto', sans-serif;
+    --cinza: #555555; 
+    --rosa: #EE9591;
+    --cinza-claro: #F6F6F6;
+    --cinza-medio: #888888;
+  }
+
+.btn-send{
+    background-color: var(--main-red-color);
+    color: var(--cinza-claro);
+    box-shadow: 10px 10px 30px rgba(234, 136, 152, 0.4);
+    border: none;
+}
